@@ -9,16 +9,21 @@
   </head>
   <body>
     <div class="container">
-      <form action="" class="form-group">
-        <div class="form-control">
-          <input type="text" name="url" id="url" />
+      <div class="content-wrapper">
+        <div class="content-title">
+          <h1>Url Shortener</h1>
         </div>
-        <div class="form-control">
-          <button type="submit">generate</button>
+        <form action="" class="form-group">
+          <div class="form-control">
+            <input type="text" name="url" id="url" />
+          </div>
+          <div class="form-control">
+            <button type="submit">generate</button>
+          </div>
+        </form>
+        <div class="output">
+          <p class="">shorten url: <span class="url-result"></span></p>
         </div>
-      </form>
-      <div class="output">
-        <p class="">shorten url: <span class="url-result"></span></p>
       </div>
     </div>
     <script src="/app.js"></script>
