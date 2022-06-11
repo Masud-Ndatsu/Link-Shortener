@@ -32,15 +32,18 @@ body {
   text-align: center;
 }
 .form-group .form-control .btn {
-  padding: 1em 2em;
+  padding: 0.5em 2em;
   background-color: #06283d;
   color: #dff6ff;
+  border-radius: 5px;
+  font-size: 1.2em;
 }
 
 .content-wrapper .output {
   text-align: left;
-  background-color: #3a5ba0;
+  background-color: #cdf0ea;
   padding: 0.85em 3em;
   width: 80%;
   margin: auto;
+  border-radius: 3px;
 }
